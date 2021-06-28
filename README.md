@@ -1,0 +1,1 @@
+This is going to be an Etch-A-Sketch project made for The Odin Project course.

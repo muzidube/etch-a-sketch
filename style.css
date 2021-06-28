@@ -1,0 +1,81 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+
+  }
+
+html {
+    font-family: 'Yellowtail', cursive;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    display: grid;
+    background-color: rgb(216, 244, 245);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header {
+  font-size: 20px;
+}
+
+#buttonDiv {
+  display: flex;
+  margin: auto;
+  padding: auto;
+
+}
+button {
+  margin: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  padding: auto;
+  background: black;
+  color: white;
+  border: none;
+  font-family: 'Yellowtail';
+  font-size: 20px;
+  
+}
+
+button:hover {
+  width: 110px;
+  height: 110px;
+  margin-bottom: 0;
+  background: rgba(68, 67, 67, 0.822);
+  border: 2px solid white;
+  font-family: 'Yellowtail';
+  font-size: 20px;
+  
+}
+
+#container {
+    text-align: center;
+    display: grid;
+    grid-gap: 0;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    width: 600px;
+    height:600px;
+    margin-top: 30px;
+    border: 2px solid black;
+  }
+  
+  .gridItem {
+    padding: 1px;
+    border: 1px solid rgba(221, 221, 221, 0.397);
+    margin: 0;
+    text-align: center;
+  }
+
+  
+
