@@ -44,7 +44,7 @@ clearBtn.addEventListener('click',() => {
     container.style.setProperty('--grid-rows', 0);
     container.style.setProperty('--grid-cols', 0);
     let x = prompt("How much Etch do you want to Sketch? (0 - 100)");
-        if (x > 80) {
+        if (x > 100) {
             alert("Please input a number between 0 & 100");
             return;
         }; 
